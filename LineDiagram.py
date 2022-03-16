@@ -84,7 +84,7 @@ class LineDiagram:
         color_cycler = (cycler(color=colors))
         ax.set_aspect(1)
 
-        # Do not display the axis, etc.
+        # Hide text for matplotlib.
         for spine in ax.spines.values():
             spine.set_visible(False)
         ax.tick_params(bottom=False, labelbottom=False, left=False,
