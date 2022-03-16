@@ -24,7 +24,7 @@ class LineDiagram:
     FIGSIZES = [4, 6, 8, 11] # matplotlib image sizes
     # If the image directory doesn't exist, create it.
     IMAGE_DIR = os.path.dirname(os.path.realpath(__file__))
-    IMAGE_DIR = os.path.join(IMAGE_DIR, 'images')
+    IMAGE_DIR = os.path.join(IMAGE_DIR, 'PNG')
     if not os.path.exists(IMAGE_DIR):
         os.makedirs(IMAGE_DIR)
 
