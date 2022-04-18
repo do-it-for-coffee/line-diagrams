@@ -10,13 +10,13 @@ I thought [Mathologer's video about Tesla's 3-6-9 and vortex math](https://www.y
 This requires `matplotlib` and utilizes `cycler` for color palettes.
 
 # run the script
-_Colors_ is a color pallette.
+`colors` is a color pallette.
 
 ```
 colors = ['#d62828', '#f77f00', '#fcbf49', '#eae2b7']
 ```
 
-_Line_ _width_ is set to 0.01 unless otherwise specified.
+`line_width` is set to 0.01 unless otherwise specified.
 
 An image subdirectory is created in the same folder as the script for the images. To run the code.
 
